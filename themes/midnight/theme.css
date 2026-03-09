@@ -1,0 +1,30 @@
+/* ═══════════════════════════════════════
+   Midnight Theme for MusicPlayer
+   Pure black OLED with cyan accents
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:          #000000;
+  --bg2:         #050505;
+  --sidebar:     #050505;
+  --card:        #0d0d0d;
+  --border:      #1a1a1a;
+  --hover:       #111111;
+  --text:        #ffffff;
+  --text2:       #666666;
+  --green:       #00d4ff;
+  --green-hover: #33ddff;
+  --player-bg:   #000000;
+}
+
+.play-btn { background: #00d4ff !important; color: #000 !important; box-shadow: 0 0 20px rgba(0,212,255,0.5); }
+.play-btn:hover { background: #33ddff !important; box-shadow: 0 0 30px rgba(0,212,255,0.7); }
+.bar-fill { background: #00d4ff; }
+.bar-thumb { background: #fff; box-shadow: 0 0 8px rgba(0,212,255,0.9); }
+.nav-link.active { background: rgba(0,212,255,0.1); color: #00d4ff; }
+.song-row.row-playing .song-title { color: #00d4ff; }
+#player-bar { background: #000; border-top: 1px solid #1a1a1a; }
+
+/* Cyan glow effects */
+.sidebar { border-right: 1px solid #0d2a2d; }
+.pl-title { text-shadow: 0 0 10px rgba(0,212,255,0.3); }

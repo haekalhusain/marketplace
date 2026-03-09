@@ -1,0 +1,8 @@
+/* Hide Sidebar Icons Snippet */
+.nav-link i,
+.sidebar-section-header i {
+  display: none !important;
+}
+.nav-link {
+  padding-left: 16px !important;
+}

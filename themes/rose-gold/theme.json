@@ -1,0 +1,9 @@
+{
+  "id": "star-night",
+  "name": "Star Night",
+  "description": "Dark blue night sky theme with subtle star particles and deep space atmosphere.",
+  "author": "haekalhusain",
+  "version": "1.0.0",
+  "tags": ["dark", "blue", "night", "space"],
+  "colors": ["#0a0e1a", "#1a2744", "#4a9eff", "#ffffff"]
+}

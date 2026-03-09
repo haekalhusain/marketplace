@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════
+   Nord Theme for MusicPlayer
+   Arctic, north-bluish clean theme
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:          #2e3440;
+  --bg2:         #272c36;
+  --sidebar:     #272c36;
+  --card:        #3b4252;
+  --border:      #434c5e;
+  --hover:       #3b4252;
+  --text:        #eceff4;
+  --text2:       #d8dee9;
+  --green:       #88c0d0;
+  --green-hover: #9dcfdf;
+  --player-bg:   #242930;
+}
+
+.play-btn { background: #88c0d0 !important; color: #2e3440 !important; }
+.play-btn:hover { background: #9dcfdf !important; }
+.bar-fill { background: #88c0d0; }
+.bar-thumb { background: #eceff4; }
+.nav-link.active { background: rgba(136,192,208,0.15); color: #88c0d0; }
+.song-row.row-playing .song-title { color: #88c0d0; }
+#player-bar { background: #242930; border-top: 1px solid #434c5e; }

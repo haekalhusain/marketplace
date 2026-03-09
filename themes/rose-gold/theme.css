@@ -1,0 +1,30 @@
+/* ═══════════════════════════════════════
+   Rose Gold Theme for MusicPlayer
+   Elegant warm pink & golden tones
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:          #1a1015;
+  --bg2:         #150d11;
+  --sidebar:     #150d11;
+  --card:        #2d1f28;
+  --border:      #3d2535;
+  --hover:       #2d1f28;
+  --text:        #f5e6ee;
+  --text2:       #c49aaa;
+  --green:       #e8a0b0;
+  --green-hover: #f0b8c5;
+  --player-bg:   #100a0e;
+}
+
+.play-btn { background: linear-gradient(135deg, #e8a0b0, #f5d0a9) !important; color: #1a1015 !important; }
+.play-btn:hover { background: linear-gradient(135deg, #f0b8c5, #f8ddb8) !important; }
+.bar-fill { background: linear-gradient(90deg, #e8a0b0, #f5d0a9); }
+.bar-thumb { background: #f5d0a9; }
+.nav-link.active { background: rgba(232,160,176,0.15); color: #e8a0b0; }
+.song-row.row-playing .song-title { color: #e8a0b0; }
+#player-bar { background: #100a0e; border-top: 1px solid #3d2535; }
+
+/* Golden shimmer on sidebar */
+.sidebar { background: linear-gradient(180deg, #1a1015 0%, #150d11 100%); }
+.logo-text { background: linear-gradient(90deg, #e8a0b0, #f5d0a9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }

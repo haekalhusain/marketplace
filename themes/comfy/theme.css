@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════
+   Comfy Theme for MusicPlayer
+   Warm brown cozy tones
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:          #1c1612;
+  --bg2:         #161109;
+  --sidebar:     #161109;
+  --card:        #2d2219;
+  --border:      #3d3020;
+  --hover:       #2d2219;
+  --text:        #f0e6d3;
+  --text2:       #a89070;
+  --green:       #c4a882;
+  --green-hover: #d4b892;
+  --player-bg:   #100c08;
+}
+
+.play-btn { background: #c4a882 !important; color: #1c1612 !important; }
+.play-btn:hover { background: #d4b892 !important; }
+.bar-fill { background: #c4a882; }
+.bar-thumb { background: #f0e6d3; }
+.nav-link.active { background: rgba(196,168,130,0.15); color: #c4a882; }
+.song-row.row-playing .song-title { color: #c4a882; }
+#player-bar { background: #100c08; border-top: 1px solid #3d3020; }

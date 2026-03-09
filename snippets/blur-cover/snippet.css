@@ -1,0 +1,23 @@
+/* Blur Cover Background Snippet */
+.main-wrap {
+  position: relative;
+}
+
+.main-wrap::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 220px; right: 0; bottom: 80px;
+  background-image: var(--cover-bg, none);
+  background-size: cover;
+  background-position: center;
+  filter: blur(80px) brightness(0.15);
+  opacity: 0.8;
+  z-index: 0;
+  pointer-events: none;
+  transition: background-image 1s ease;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+}

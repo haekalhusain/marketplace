@@ -1,0 +1,57 @@
+/* ═══════════════════════════════════════
+   Star Night Theme for MusicPlayer
+   Dark blue night sky with star particles
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:        #0a0e1a;
+  --bg2:       #0f1525;
+  --sidebar:   #0d1220;
+  --card:      #111827;
+  --border:    #1e2d4a;
+  --hover:     #1a2744;
+  --text:      #e8f0ff;
+  --text2:     #7a9cc0;
+  --green:     #4a9eff;
+  --green-hover: #6ab0ff;
+  --player-bg: #080c16;
+}
+
+/* Starfield background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 25% 40%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 40% 8%,  rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 55% 30%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85% 45%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 15% 70%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 65%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 75%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 35% 85%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(2px 2px at 90% 10%, rgba(200,220,255,0.6) 0%, transparent 100%),
+    radial-gradient(2px 2px at 5%  55%, rgba(200,220,255,0.5) 0%, transparent 100%),
+    radial-gradient(2px 2px at 45% 90%, rgba(200,220,255,0.4) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  0%   { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+/* Accent glows */
+.sidebar { box-shadow: inset -1px 0 20px rgba(74,158,255,0.05); }
+#player-bar { box-shadow: 0 -1px 30px rgba(74,158,255,0.08); }
+.nav-link.active { background: rgba(74,158,255,0.15); color: #4a9eff; }
+.play-btn { background: #4a9eff !important; box-shadow: 0 0 20px rgba(74,158,255,0.4); }
+.play-btn:hover { background: #6ab0ff !important; box-shadow: 0 0 28px rgba(74,158,255,0.6); }
+.song-title.row-playing-title, .song-row.row-playing .song-title { color: #4a9eff; }
+.bar-fill { background: #4a9eff; }
+.bar-thumb { background: #fff; box-shadow: 0 0 6px rgba(74,158,255,0.8); }

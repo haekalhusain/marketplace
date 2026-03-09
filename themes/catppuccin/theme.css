@@ -1,0 +1,28 @@
+/* ═══════════════════════════════════════
+   Catppuccin Mocha Theme for MusicPlayer
+   ═══════════════════════════════════════ */
+
+:root {
+  --bg:          #1e1e2e;
+  --bg2:         #181825;
+  --sidebar:     #181825;
+  --card:        #313244;
+  --border:      #45475a;
+  --hover:       #313244;
+  --text:        #cdd6f4;
+  --text2:       #a6adc8;
+  --green:       #cba6f7;
+  --green-hover: #d5b8f8;
+  --player-bg:   #11111b;
+}
+
+.play-btn { background: #cba6f7 !important; color: #1e1e2e !important; }
+.play-btn:hover { background: #d5b8f8 !important; }
+.bar-fill { background: #cba6f7; }
+.bar-thumb { background: #f5c2e7; }
+.nav-link.active { background: rgba(203,166,247,0.15); color: #cba6f7; }
+.song-row.row-playing .song-title { color: #cba6f7; }
+
+/* Subtle gradient overlay */
+.sidebar { background: linear-gradient(180deg, #1e1e2e 0%, #181825 100%); }
+#player-bar { background: #11111b; border-top: 1px solid #313244; }
