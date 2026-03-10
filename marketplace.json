@@ -35,6 +35,205 @@
       "version": "1.0.0",
       "stars": 87,
       "tags": ["blue", "minimal", "clean", "arctic"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/nord/theme.css",
+      "colors": ["#2e3440", "#3b4252", "#88c0d0", "#eceff4"],
+      "updated": "2026-03-08"
+    },
+    {
+      "id": "rose-gold",
+      "name": "Rose Gold",
+      "description": "Elegant rose gold theme with warm pink tones and golden accents.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 76,
+      "tags": ["pink", "gold", "elegant", "warm"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/rose-gold/theme.css",
+      "colors": ["#1a1015", "#2d1f28", "#e8a0b0", "#f5d0a9"],
+      "updated": "2026-03-07"
+    },
+    {
+      "id": "comfy",
+      "name": "Comfy",
+      "description": "Warm, cozy brown tones for a comfortable listening experience.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 65,
+      "tags": ["warm", "brown", "cozy", "minimal"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/comfy/theme.css",
+      "colors": ["#1c1612", "#2d2219", "#c4a882", "#f0e6d3"],
+      "updated": "2026-03-06"
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight",
+      "description": "Pure black OLED-friendly theme with vibrant cyan accents.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 54,
+      "tags": ["black", "oled", "cyan", "minimal"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/midnight/theme.css",
+      "colors": ["#000000", "#0d0d0d", "#00d4ff", "#ffffff"],
+      "updated": "2026-03-05"
+    },
+    {
+      "id": "spicetify-default",
+      "name": "Spicetify Default",
+      "description": "Default Spicetify theme — dark green, ported from the official Spicetify themes repo.",
+      "author": "spicetify",
+      "version": "1.0.0",
+      "stars": 320,
+      "tags": ["spicetify", "dark", "green", "default"],
+      "css": "https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Default/user.css",
+      "colors": ["#121212", "#282828", "#1db954", "#ffffff"],
+      "spicetify": true,
+      "updated": "2026-01-18"
+    },
+    {
+      "id": "spicetify-dribbblish",
+      "name": "Dribbblish",
+      "description": "Colorful Spicetify theme with dynamic album art colors. Auto-converted from Spicetify.",
+      "author": "JulienMaille",
+      "version": "1.0.0",
+      "stars": 890,
+      "tags": ["spicetify", "colorful", "dynamic", "popular"],
+      "css": "https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Dribbblish/user.css",
+      "colors": ["#0d0d0d", "#1a1a1a", "#ffffff", "#b3b3b3"],
+      "spicetify": true,
+      "updated": "2026-01-18"
+    },
+    {
+      "id": "spicetify-sleek",
+      "name": "Sleek",
+      "description": "A modern and sleek Spicetify theme. Auto-converted from Spicetify themes.",
+      "author": "spicetify",
+      "version": "1.0.0",
+      "stars": 210,
+      "tags": ["spicetify", "modern", "sleek", "minimal"],
+      "css": "https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Sleek/user.css",
+      "colors": ["#000000", "#121212", "#1db954", "#ffffff"],
+      "spicetify": true,
+      "updated": "2026-01-18"
+    },
+    {
+      "id": "spicetify-comfy",
+      "name": "Comfy (Spicetify)",
+      "description": "The original Comfy theme from Spicetify. Warm and cozy. Auto-converted.",
+      "author": "Comfy-Themes",
+      "version": "1.0.0",
+      "stars": 560,
+      "tags": ["spicetify", "warm", "cozy", "brown"],
+      "css": "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/user.css",
+      "colors": ["#1c1612", "#2d2219", "#c4a882", "#f0e6d3"],
+      "spicetify": true,
+      "updated": "2026-01-18"
+    }
+  ],
+  "extensions": [
+    {
+      "id": "audio-visualizer",
+      "name": "Audio Visualizer",
+      "description": "Beautiful real-time audio frequency visualizer that reacts to your music.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 203,
+      "tags": ["visualizer", "animation", "audio"],
+      "js": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/extensions/audio-visualizer/extension.js",
+      "updated": "2026-03-10"
+    },
+    {
+      "id": "song-stats",
+      "name": "Song Statistics",
+      "description": "Shows play count, most played artists, and listening stats in the sidebar.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 156,
+      "tags": ["stats", "analytics", "sidebar"],
+      "js": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/extensions/song-stats/extension.js",
+      "updated": "2026-03-09"
+    },
+    {
+      "id": "sleep-timer",
+      "name": "Sleep Timer",
+      "description": "Automatically stops playback after a set duration. Perfect for falling asleep to music.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 89,
+      "tags": ["timer", "utility", "sleep"],
+      "js": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/extensions/sleep-timer/extension.js",
+      "updated": "2026-03-08"
+    }
+  ],
+  "snippets": [
+    {
+      "id": "hide-sidebar-icons",
+      "name": "Hide Sidebar Icons",
+      "description": "Hides the icons in the sidebar for a cleaner, text-only navigation look.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 45,
+      "tags": ["sidebar", "clean", "minimal"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/snippets/hide-sidebar-icons/snippet.css",
+      "updated": "2026-03-07"
+    },
+    {
+      "id": "compact-player",
+      "name": "Compact Player",
+      "description": "Makes the bottom player bar more compact, giving more space to the main content.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 38,
+      "tags": ["player", "compact", "layout"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/snippets/compact-player/snippet.css",
+      "updated": "2026-03-06"
+    },
+    {
+      "id": "blur-cover",
+      "name": "Blur Cover Background",
+      "description": "Adds a beautiful blurred album art as the page background.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 72,
+      "tags": ["cover", "blur", "background", "visual"],
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/snippets/blur-cover/snippet.css",
+      "updated": "2026-03-10"
+    }
+  ]
+}
+
+    {
+      "id": "star-night",
+      "name": "Star Night",
+      "description": "Dark blue night sky theme with subtle star particles and deep space atmosphere.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 142,
+      "tags": ["dark", "blue", "night", "space"],
+      "preview": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/star-night/preview.png",
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/star-night/theme.css",
+      "colors": ["#0a0e1a", "#1a2744", "#4a9eff", "#ffffff"],
+      "updated": "2026-03-10"
+    },
+    {
+      "id": "catppuccin",
+      "name": "Catppuccin Mocha",
+      "description": "Soothing pastel theme based on the popular Catppuccin color palette.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 98,
+      "tags": ["pastel", "purple", "cozy"],
+      "preview": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/catppuccin/preview.png",
+      "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/catppuccin/theme.css",
+      "colors": ["#1e1e2e", "#313244", "#cba6f7", "#cdd6f4"],
+      "updated": "2026-03-09"
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "description": "Arctic, north-bluish clean and elegant theme inspired by the Nord color palette.",
+      "author": "haekalhusain",
+      "version": "1.0.0",
+      "stars": 87,
+      "tags": ["blue", "minimal", "clean", "arctic"],
       "preview": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/nord/preview.png",
       "css": "https://raw.githubusercontent.com/haekalhusain/marketplace/main/themes/nord/theme.css",
       "colors": ["#2e3440", "#3b4252", "#88c0d0", "#eceff4"],
